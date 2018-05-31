@@ -29,7 +29,7 @@ pipeline {
             }
           }
         }
-      }
+    }
     stage('Get Kernel') {
       steps {
         script {
