@@ -1,4 +1,6 @@
 pipeline {
+    agent any
+    stages {
     stage('Testing') {
         parallel {
           stage('Java 9') {
@@ -19,4 +21,5 @@ pipeline {
           }
         }
       }
+    }
   }
